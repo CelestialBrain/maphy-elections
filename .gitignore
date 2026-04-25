@@ -1,0 +1,22 @@
+# Local data — actual data ships via GitHub Releases, never committed
+*.csv
+*.csv.gz
+*.tar.gz
+*.json
+!CITATION.cff
+!schemas/*.json
+!release-manifest.json.template
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local working dirs (if anyone clones to test)
+data/
+output/
+_raw/

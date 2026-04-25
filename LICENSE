@@ -1,0 +1,59 @@
+Attribution 4.0 International — CC BY 4.0
+=========================================
+
+The DATA in this repository (CSV files, JSON manifests, precinct-to-PSGC
+crosswalks, candidate registries, turnout tables, and any derivatives
+thereof produced by the maintainers) is licensed under the Creative
+Commons Attribution 4.0 International License.
+
+You are free to:
+  • Share — copy and redistribute the material in any medium or format
+  • Adapt — remix, transform, and build upon the material
+  • for any purpose, even commercially.
+
+Under the following terms:
+  • Attribution — You must give appropriate credit, provide a link to
+    the license, and indicate if changes were made. You may do so in
+    any reasonable manner, but not in any way that suggests the
+    licensor endorses you or your use.
+
+The required attribution string for the dataset itself is:
+
+    Revelo, M. A. N. (2026). maphy-elections: Open Philippine election
+    data, 12 cycles 1992-2025, PSGC-keyed at barangay grain.
+    https://github.com/CelestialBrain/maphy-elections
+
+In addition, you MUST cite the upstream sources you actually drew from.
+The full upstream provenance is in PROVENANCE.md. Each upstream source
+has its own license terms (most are CC-BY-4.0, public-domain, or MIT —
+all compatible with this dataset's CC-BY-4.0 license). Honoring the
+upstream citations is both legally and ethically required.
+
+No additional restrictions — You may not apply legal terms or
+technological measures that legally restrict others from doing anything
+the license permits.
+
+Notices:
+
+You do not have to comply with the license for elements of the material
+in the public domain or where your use is permitted by an applicable
+exception or limitation.
+
+No warranties are given. The license may not give you all of the
+permissions necessary for your intended use. For example, other rights
+such as publicity, privacy, or moral rights may limit how you use the
+material.
+
+For the full legal code, see:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+For a human-readable summary, see:
+  https://creativecommons.org/licenses/by/4.0/
+
+----------------------------------------------------------------------
+
+Copyright (c) 2026 Mar Angelo N. Revelo
+
+The CODE in this repository (parsers, schemas, glue scripts, and any
+build infrastructure) is licensed separately under the Apache License
+2.0 — see LICENSE-CODE for the full text.

@@ -1,0 +1,43 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   Copyright (c) 2026 Mar Angelo N. Revelo
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+----------------------------------------------------------------------
+
+Scope
+
+This Apache-2.0 license covers the CODE in this repository:
+  • Parsers and normalisers
+  • CSV schema definitions
+  • Build/release glue scripts
+  • Any TypeScript / Node.js source files
+
+The DATA in this repository (CSV files, JSON manifests, crosswalks,
+candidate registries, turnout tables) is licensed separately under
+CC-BY-4.0 — see LICENSE for the full text and required attribution.
+
+This split is deliberate: code reuse is permissive (Apache-2.0 with
+patent grant) so anyone building election-data tooling for the
+Philippines can fork and extend without legal friction. Data reuse
+is permissive but attribution-required (CC-BY-4.0) so credibility and
+provenance flow through derivative works.
+
+----------------------------------------------------------------------
+
+For the full Apache-2.0 license text, including the patent grant,
+contributor terms, and warranty disclaimer, see:
+  https://www.apache.org/licenses/LICENSE-2.0

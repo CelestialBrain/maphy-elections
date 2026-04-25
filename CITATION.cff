@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "maphy-elections: Open Philippine election data, 12 cycles 1992-2025, PSGC-keyed at barangay grain"
+message: "If you use this dataset, please cite as below. Upstream sources (figshare, GMA, ABS-CBN, COMELEC, UP CIDS, etc.) MUST also be cited per their respective licenses — see PROVENANCE.md."
+type: dataset
+authors:
+  - family-names: Revelo
+    given-names: "Mar Angelo N."
+    email: marangelonrevelo@gmail.com
+repository-code: "https://github.com/CelestialBrain/maphy-elections"
+url: "https://bygelo.com/maphy/"
+abstract: >-
+  Multi-source-validated Philippine election data spanning 12 electoral cycles
+  (1992-2025), PSGC-keyed at barangay grain where source data permits. Built
+  from independent scrapes of figshare-archived election datasets, GMA Halalan,
+  ABS-CBN Halalan, COMELEC's Project of Precincts PDFs, UP CIDS LGU dataset,
+  Wikipedia canvass, and the macoymejia 2016 precinct-level archive.
+  Cross-source validation receipts (ABS-CBN × GMA at 0.57-3.64% delta on
+  top-12 partylist counts), 100% PSGC fill rate on 2022 + 2025 precinct→
+  barangay crosswalks, and structural fixes for known parser-level data
+  quality issues are documented in CREDIBILITY.md. Built as a public-extension
+  of the maphy civic atlas (https://github.com/CelestialBrain/maphy).
+keywords:
+  - Philippines
+  - elections
+  - PSGC
+  - barangay
+  - civic-tech
+  - open-data
+  - COMELEC
+  - turnout
+  - precinct-to-barangay
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+date-released: 2026-04-25
+version: "1.0.0"
